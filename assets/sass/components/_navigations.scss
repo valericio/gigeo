@@ -1,0 +1,39 @@
+.navbar{
+    padding: 1em 0;
+    background-color: $white;
+}
+
+.navbar__title{
+    font-size: x-large;
+}
+
+.navbar__higher{
+    font-size: x-small;
+}
+
+.navbar__icon{
+    display: flex;
+    justify-content: flex-end;
+    i{
+        align-self: center;
+        font-size: 1.2em;
+        padding-right: 1em;
+      }
+}
+
+.navbar-toggler{
+    padding: 5px 0;
+}
+  
+.navbar-light .navbar-toggler{
+    border-color: transparent;
+}
+  
+@media only screen and(max-width: 768px){
+    .navbar{
+      i {
+        display: none;
+      }
+    }
+  }
+  

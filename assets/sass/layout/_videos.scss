@@ -1,0 +1,31 @@
+.videos__title{
+    padding-top     : 3%;
+    padding-bottom  : 3%;
+    font-size       : $large;
+}
+
+.videos__title__photo{
+    font-size   : $medium;
+    font-weight : $bold;
+    padding-top : 3%;
+}
+
+.videos__subtitle__photo{
+    font-size   : $small;
+    font-weight : $regular;
+    color       : $gray;
+}
+
+@media only screen and(max-width: 568px){
+    .videos__title{
+        text-align: center;    
+    }
+    
+    .videos__title__photo{
+        font-size: $large;
+    }
+
+    .videos__subtitle__photo{
+        font-size: $medium;
+    }
+}
